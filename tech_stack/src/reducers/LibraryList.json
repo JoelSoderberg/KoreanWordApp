@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "title": "내가 학교에 갈거야",
+    "description": "I am going to school \n\n내가 - I am \n학교에 - To school \n 갈거야 - I'm going there \n"
+  },
+  {
+    "id": 1,
+    "title": "맞아!",
+    "description": "Right!"
+  },
+  {
+    "id": 2,
+    "title": "만나다",
+    "description": "To meet"
+  },
+  {
+    "id": 3,
+    "title": "내일 어디 만날까?",
+    "description": "Where shall we meet tomorrow? \n\n내일 - Tomorrow \n어디 - Where \n만날까 - Shall we meet\n"
+  },
+  {
+    "id": 4,
+    "title": "북극남자",
+    "description": "Arctic man"
+  },
+  {
+    "id": 5,
+    "title": "피곤하지만 기분 좋아요",
+    "description": "I feel good but tired \n\n피곤 - I'm tired \n하지만 - but \n기분 좋아요 - I'm in a good mood\n",
+  },
+  {
+    "id": 6,
+    "title": "지금 막 시작했어",
+    "description": "I just started (watching a show) \n\n지금 - now \n막 - just \n시작 - beginning \n했어 - do\n"
+  }
+]
