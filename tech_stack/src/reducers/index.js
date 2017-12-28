@@ -3,6 +3,6 @@ import LibraryReducer from './LibraryReducer';
 import SelectionReducer from './SelectionReducer';
 
 export default combineReducers({
-  libraries: LibraryReducer,
-  selectedLibraryId: SelectionReducer
+  libraries: LibraryReducer,          // json Text information
+  selectedLibraryId: SelectionReducer // Which text to expand
 });

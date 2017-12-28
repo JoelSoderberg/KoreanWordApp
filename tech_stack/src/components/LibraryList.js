@@ -41,4 +41,5 @@ const mapStateToProps = state => {
   return { libraries: state.libraries };
 };
 
+// Connects the json file to the store.
 export default connect(mapStateToProps)(LibraryList);

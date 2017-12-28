@@ -47,7 +47,7 @@ class ListItem extends Component {
 
     return (
       <TouchableWithoutFeedback
-        onPress={() => this.props.selectLibrary(expanded ? -1 : id)}
+        onPress={() => this.props.selectLibrary(expanded ? -1 : id)} // Expand and de-expand
       >
         <View>
           <CardSection color={color}>
@@ -55,7 +55,7 @@ class ListItem extends Component {
               {title}
             </Text>
           </CardSection>
-          {this.renderDescription()}
+          {this.renderDescription()} // Render the description component
         </View>
       </TouchableWithoutFeedback>
     );

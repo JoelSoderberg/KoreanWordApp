@@ -8,10 +8,10 @@ import LibraryList from './components/LibraryList';
 
 const App = () => {
   return (
-    <Provider store={createStore(reducers)}>
+    <Provider store={createStore(reducers)}>              // Different components to show.
       <View style={{ flex: 1, backgroundColor: '#000' }}>
-        <Header headerText="Korean" />
-        <LibraryList />
+        <Header headerText="Korean" />                    // Header text
+        <LibraryList />                                   // Card component
       </View>
     </Provider>
   );
